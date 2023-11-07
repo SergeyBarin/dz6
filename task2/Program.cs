@@ -21,10 +21,10 @@ double Prompt(string message){
     double result = Convert.ToDouble(value);
     return result;
 }
-double[] InputLineData(int nubmerOfLine){
+double[] InputLineData(int numberOfLine){
     double[] lineData = new double[2];
-    lineData[COEFFICIENT] = Prompt($"Введите коэффициент для {nubmerOFLine} прямой > ");
-    lineData[Constant] = Prompt($"Введите константу для {numberOFLine} прямой >");
+    lineData[COEFFICIENT] = Prompt($"Введите коэффициент для {numberOFLine} прямой > ");
+    lineData[CONSTANT] = Prompt($"Введите константу для {numberOFLine} прямой >");
     return lineData;
 }
 double[] FindCoords(double[] lineData1, double[] lineData2){
