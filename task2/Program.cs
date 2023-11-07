@@ -21,7 +21,7 @@ double Prompt(string message){
     double result = Convert.ToDouble(value);
     return result;
 }
-double[] InputLineData(int numberOfLine){
+double[] InputLineData(int numberOFLine){
     double[] lineData = new double[2];
     lineData[COEFFICIENT] = Prompt($"Введите коэффициент для {numberOFLine} прямой > ");
     lineData[CONSTANT] = Prompt($"Введите константу для {numberOFLine} прямой >");
